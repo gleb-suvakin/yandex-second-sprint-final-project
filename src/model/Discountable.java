@@ -1,4 +1,5 @@
 package model;
 
-public class Discountable {
+public interface Discountable {
+    double getDiscount();
 }
