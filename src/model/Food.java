@@ -16,4 +16,10 @@ public abstract class Food {
     public boolean isVegetarian(){
         return isVegetarian;
     }
+
+    //скида по умолчанию
+    public double getDiscount(){
+        return 0;
+    }
+
 }
